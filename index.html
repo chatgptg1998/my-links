@@ -57,21 +57,14 @@
         .logo {
             width: 80px;
             height: 80px;
-            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            background-image: url('logo.png');
+            background-size: cover;
+            background-position: center;
             border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
-            position: relative;
-            overflow: hidden;
         }
 
         .logo::before {
-            content: '🎬';
-            font-size: 35px;
-            z-index: 2;
-            position: relative;
+        display: none;
         }
 
         .logo::after {
